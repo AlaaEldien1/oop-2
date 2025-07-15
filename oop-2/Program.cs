@@ -23,17 +23,17 @@ namespace oop_2
 
             #endregion
             #region question3
-            //Employee[] EmpArr = new Employee[3];
+            Employee[] EmpArr = new Employee[3];
 
-            //EmpArr[0] = new Employee(1,"Ahmed",SecurityLevel.DBA,15000, new DateTime(2022, 4, 10),'m' );
+            EmpArr[0] = new Employee(1, "Ahmed", SecurityLevel.DBA, 15000, new DateTime(2022, 4, 10), 'm');
 
-            //EmpArr[1] = new Employee(2,"Sara",SecurityLevel.guest,3000,new DateTime(2023, 2, 5),'f');
+            EmpArr[1] = new Employee(2, "Sara", SecurityLevel.guest, 3000, new DateTime(2023, 2, 5), 'f');
 
-            //EmpArr[2] = new Employee(3,"Kareem",SecurityLevel.secretary,8000,new DateTime(2024, 1, 20),'m');
-            //foreach (Employee emp in EmpArr)
-            //{
-            //    Console.WriteLine(emp);
-            //}
+            EmpArr[2] = new Employee(3, "Kareem", SecurityLevel.secretary, 8000, new DateTime(2024, 1, 20), 'm');
+            foreach (Employee emp in EmpArr)
+            {
+                Console.WriteLine(emp);
+            }
             #endregion
         }
     }
